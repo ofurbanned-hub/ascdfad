@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "mod",
+  "version": "${version}",
+  "name": "Mod",
+  "description": "Windows Notepad countdown prank. Opens Windows search and Notepad, types a message and countdown, then displays a harmless reveal. Does not shut down the computer.",
+  "environment": "client",
+  "entrypoints": { "preLaunch": ["com.example.mod.ModClient"] },
+  "depends": { "fabricloader": ">=0.15.0", "minecraft": ">=1.20" }
+}
